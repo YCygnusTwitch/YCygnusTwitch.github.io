@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.album img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.album img:hover {
+  transform: scale(1.05);
+}
+
+.album .locked {
+  //filter: grayscale(100%) blur(10px);
+  opacity: 0.5;
+}
