@@ -27,6 +27,6 @@ body {
 }
 
 .album .locked {
-  //filter: grayscale(100%) blur(10px);
+  filter: grayscale(100%) blur(10px);
   opacity: 0.5;
 }
